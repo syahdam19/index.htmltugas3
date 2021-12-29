@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+/*
+
+.navi{
+	z-index: 100;
+	width: 100%;
+}
+
+.navi ul{
+	width: 100%;
+	padding-left: 400px;
+	background-color: blue;
+	color: black;
+	text-align: center;
+}
+
+
+.navi ul li{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+}
+
+
+
+.navi li a{
+	width: 100%;
+	display: block;
+	color: blue;
+	text-align: center;
+	padding:30px 16px;
+	text-decoration: none;
+}
+.navi li a:hover{
+	/*background-color: plum;*/
+	/*color: plum;
+}
+
+
+
+.gambar li:hover{
+	transform: scale(1.2);
+}
+
+.halaman{
+	background-color: red;
+	float: left;
+}
+
+
+.halaman li{
+	list-style: none;
+}
+
+
+img{
+	width: 200px;
+	height: 200px;
+	float: left;
+}*/
+.navi{
+ background-color: violet; 
+ width: 100%;
+}
+.navi ul{
+	width: 100%;
+}
+.navi ul li{
+	float: left;
+	position: fixed;
+	z-index: 1;
+	font-size: 25px;
+	margin: 0;
+	padding: 0px;
+	background-color: violet;
+	width: 100%;
+}
+.navi a{
+text-decoration: none;
+}
+
+.navi li a{
+	width: 100%;
+	display: block;
+	color: blue;
+	text-align: center;
+	padding:15px 16px;
+	text-decoration: none;
+}
+
+.navi li a:hover{
+	color: pink;
+
+}
+
+.halaman{
+	margin: 50px;
+}
+.halaman li{
+	float: left;
+	list-style: none;
+	overflow: hidden;
+
+}
+img{
+	padding: 10px;
+	width: 200px;
+	height: 250px;
+}
+img:hover{
+transform:scale(1.2);
+}
